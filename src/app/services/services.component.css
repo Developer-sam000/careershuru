@@ -1,0 +1,16 @@
+.services{
+background-color:rgb(128, 183, 245);
+padding: 50%,100%;
+}
+h1{
+    font-size: 35px;
+}
+.box{
+    background-color: white;
+    padding: 10px;
+}
+@media screen and (max-width:600px){
+    .services{
+      height:700px;padding: 10px;
+    }
+  }
