@@ -11,5 +11,9 @@ export class JoinUsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  msg:String=""
+onClick(){
+  alert("no data")
+  this.msg="no data found"
+}
 }
