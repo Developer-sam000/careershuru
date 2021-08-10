@@ -1,24 +1,31 @@
-
-
 .navbar-brand:hover {
-  text-decoration: underline;
-  background-color: rgb(126, 231, 245);
-  
+
+  background-color: red;
+  border-radius: 10px 10px 10px 10px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+
 }
 
+.navbar-dark .navbar-nav .nav-link:hover {
+
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(12, 12, 12);
+}
 .navbar {
-  background-color: #ffffff;}
-
-.navbar-light .navbar-nav .nav-link {
-  color: rgb(11, 12, 17);
-  font-size: 20px;
-
+  background-color: #267fbb;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  text-decoration: underline;
-  background-color: rgb(126, 231, 245);
-  background-position:center;
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(244, 245, 250);
+  font-size: 20px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  /* text-decoration: underline; */
+  background-color: rgb(204, 29, 29);
+  background-position: center;
 }
 
 h1 {
@@ -39,4 +46,21 @@ h2 {
 
 .txt:hover {
   text-decoration: underline;
+}
+
+  
+
+.navbar img{
+
+  object-position: center;
+  
+}
+.li{
+  color: aliceblue;
+}
+.p{
+  background-color: black;
+  color: aqua;
+  position: absolute;
+
 }

@@ -17,3 +17,18 @@ h4{
     font-size: 25px;
     font-weight: bold;
 }
+.table{
+    background-color: tan;
+    color:indigo;
+    font-style:italic;
+    text-align: center;
+    font-size: large;
+}
+.table tr:first-child{
+    color:rgb(20, 73, 90);
+    font-weight: bold;
+}
+.white{
+    color:rgb(214, 115, 136);
+    font-weight: bold;
+}

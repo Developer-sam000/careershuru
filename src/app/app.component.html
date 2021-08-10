@@ -1,12 +1,17 @@
 
-<nav class="navbar navbar-expand-lg navbar-light  ">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top ">
   
-  <a class="navbar-brand" routerLink="active">Digital Raabta<span class="sr-only"></span></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+  
+  <a class="navbar-brand" routerLink="active">CareerShuru<span class="sr-only" ></span></a>
+ 
+  
+  <button class="navbar-toggler" data-toggle="collapse" type="button" (click)="isCollapsed=!isCollapsed" [attr.aria-expanded]="!isCollapsed"aria-controls="col" data-target="#col">
     <span class="navbar-toggler-icon"></span>
   </button> 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+  <div class="collapse navbar-collapse"  id="col"[ngbCollapse]="isCollapsed">
     <ul class="navbar-nav ms-auto">
+      
       <li class="nav-item active" routerlinkactive="active">
         <a class="nav-link active" routerLink="">Home <span class="sr-only"></span></a>
       </li>
@@ -20,18 +25,25 @@
       <li class="nav-item" routerlinkactive="active">
         <a class="nav-link" routerLink="contact">contact</a>
       </li>
+      <li class="nav-item" class="sign" routerlinkactive="active">
+        <a class="nav-link" routerLink="signup">Sign Up</a>
+      </li>
       <li class="nav-item" routerlinkactive="active">
         <a class="nav-link" routerLink="about">About</a>
       </li>
-  
     
     </ul>
+    
   </div>
-  </nav>
-    <router-outlet></router-outlet>
 
+  </nav>
+ 
+  
+
+    <router-outlet></router-outlet>
+ 
     <!--footer-->
-    <footer class="text-center mt-2">
-      <p>&copy;DigitalRaabta 2021. All rights reserved</p>
+    <footer class="text-center mt-2 sticky-top">
+      <p>&copy;CareerShuru 2021. All rights reserved</p>
 
     </footer>

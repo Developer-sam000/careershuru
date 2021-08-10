@@ -1,24 +1,43 @@
 <section class="home">
-  <a href="https://www.google.com/"><img src="../../assets/img/earth.jpg"></a>
-  <div class="homecomponent">
 
-    <h1 >
-    Grow your business <br> 
-    </h1>
-    <h1 >
-      like never before
-      </h1>
-    <a routerLink="services" class="btn btn-lg btn-light">Explore Possibilities</a> &nbsp;
-    <a routerLink="join-us" class="btn btn-lg btn-primary">Get Started</a>
-</div>
-</section>
-<section>
+
+
   
-  <div class="example-button-row">
-        <a mat-fab color="primary" href="https://www.google.com/" >Search</a>
-        
+  <a><img src="../../assets/img/meet.jpg"></a>
+  <h2 class="text-center">{{dateTime | date:'short'}}</h2>
+  <div class="homecomponent">
+    
+    <h1>
+      The Online Community<br>
+    </h1>
+    <h1>
+      for those who dare to change
+    </h1>
+    <a routerLink="services" class="btn btn-lg btn-light">Welcome to your next ulimate career</a> &nbsp;
+    <a routerLink="join-us" class="btn btn-lg btn-primary">Join Today</a>
   </div>
 
+</section>
+
+<div class="yt">
+<youtube-player 
+
+class="first"
+  videoId="LUgaR2yAJ4o"
+  SuggestedQuality="highres"
+  [height]="500"
+  [width]="700"></youtube-player>
   
   
-</section>  
+  <span class="second" >
+    <youtube-player
+    
+  videoId="UWHHTfFhD3o"
+  SuggestedQuality="highres"
+  [height]="500"
+  [width]="700"></youtube-player>
+  </span>
+</div>
+  
+
+ 
